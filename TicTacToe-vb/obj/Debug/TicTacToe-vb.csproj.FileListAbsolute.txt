@@ -1,0 +1,11 @@
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\bin\Debug\TicTacToe-vb.exe.config
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\bin\Debug\TicTacToe-vb.exe
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\bin\Debug\TicTacToe-vb.pdb
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe_vb.Form1.resources
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe_vb.Properties.Resources.resources
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.exe
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.pdb
