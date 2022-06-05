@@ -36,6 +36,28 @@ namespace TicTacToe_vb
                 {
                     turn = 'X';
                 }
+                if (btn1.Text == btn2.Text)
+                {
+                    if (btn1.Text == btn3.Text)
+                    {
+                        MessageBox.Show("You Win " + btn1.Text);
+                    }
+                }
+
+                if (btn1.Text == btn4.Text)
+                {
+                    if (btn1.Text == btn7.Text)
+                    {
+                        MessageBox.Show("You Win " + btn1.Text);
+                    }
+                }
+                if (btn1.Text == btn5.Text)
+                {
+                    if (btn1.Text == btn9.Text)
+                    {
+                        MessageBox.Show("You Win " + btn1.Text);
+                    }
+                }
             }
         }
 
@@ -51,6 +73,13 @@ namespace TicTacToe_vb
                 else
                 {
                     turn = 'X';
+                }
+                if (btn2.Text == btn5.Text)
+                {
+                    if (btn2.Text == btn8.Text)
+                    {
+                        MessageBox.Show("You Win " + btn2.Text);
+                    }
                 }
             }
         }
@@ -69,6 +98,28 @@ namespace TicTacToe_vb
                 {
                     turn = 'X';
                 }
+                if (btn3.Text == btn6.Text)
+                {
+                    if (btn3.Text == btn9.Text)
+                    {
+                        MessageBox.Show("You Win " + btn3.Text);
+                    }
+                }
+
+                if (btn3.Text == btn5.Text)
+                {
+                    if (btn3.Text == btn7.Text)
+                    {
+                        MessageBox.Show("You Win " + btn3.Text);
+                    }
+                }
+                if (btn3.Text == btn2.Text)
+                {
+                    if (btn3.Text == btn1.Text)
+                    {
+                        MessageBox.Show("You Win " + btn3.Text);
+                    }
+                }
             }
         }
 
@@ -86,6 +137,13 @@ namespace TicTacToe_vb
                 {
                     turn = 'X';
                 }
+                if (btn4.Text == btn5.Text)
+                {
+                    if (btn4.Text == btn6.Text)
+                    {
+                        MessageBox.Show("You Win " + btn4.Text);
+                    }
+                }
             }
         }
 
@@ -101,6 +159,37 @@ namespace TicTacToe_vb
                 else
                 {
                     turn = 'X';
+                }
+                if (btn5.Text == btn2.Text)
+                {
+                    if (btn5.Text == btn8.Text)
+                    {
+                        MessageBox.Show("You Win " + btn5.Text);
+                    }
+                }
+
+                if (btn5.Text == btn4.Text)
+                {
+                    if (btn5.Text == btn6.Text)
+                    {
+                        MessageBox.Show("You Win " + btn5.Text);
+                    }
+                }
+
+                if (btn5.Text == btn1.Text)
+                {
+                    if (btn5.Text == btn9.Text)
+                    {
+                        MessageBox.Show("You Win " + btn5.Text);
+                    }
+                }
+
+                if (btn5.Text == btn3.Text)
+                {
+                    if (btn5.Text == btn7.Text)
+                    {
+                        MessageBox.Show("You Win " + btn5.Text);
+                    }
                 }
             }
         }
@@ -118,6 +207,21 @@ namespace TicTacToe_vb
                 {
                     turn = 'X';
                 }
+                if (btn6.Text == btn5.Text)
+                {
+                    if (btn6.Text == btn4.Text)
+                    {
+                        MessageBox.Show("You Win " + btn6.Text);
+                    }
+                }
+
+                if (btn6.Text == btn3.Text)
+                {
+                    if (btn6.Text == btn9.Text)
+                    {
+                        MessageBox.Show("You Win " + btn6.Text);
+                    }
+                }
             }
         }
 
@@ -133,6 +237,29 @@ namespace TicTacToe_vb
                 else
                 {
                     turn = 'X';
+                }
+                if (btn7.Text == btn8.Text)
+                {
+                    if (btn7.Text == btn9.Text)
+                    {
+                        MessageBox.Show("You Win " + btn7.Text);
+                    }
+                }
+
+                if (btn7.Text == btn4.Text)
+                {
+                    if (btn7.Text == btn1.Text)
+                    {
+                        MessageBox.Show("You Win " + btn7.Text);
+                    }
+                }
+
+                if (btn7.Text == btn5.Text)
+                {
+                    if (btn7.Text == btn3.Text)
+                    {
+                        MessageBox.Show("You Win " + btn7.Text);
+                    }
                 }
             }
         }
@@ -150,6 +277,21 @@ namespace TicTacToe_vb
                 {
                     turn = 'X';
                 }
+                if (btn8.Text == btn5.Text)
+                {
+                    if (btn8.Text == btn2.Text)
+                    {
+                        MessageBox.Show("You Win " + btn8.Text);
+                    }
+                }
+
+                if (btn8.Text == btn7.Text)
+                {
+                    if (btn8.Text == btn9.Text)
+                    {
+                        MessageBox.Show("You Win " + btn8.Text);
+                    }
+                }
             }
         }
 
@@ -165,6 +307,29 @@ namespace TicTacToe_vb
                 else
                 {
                     turn = 'X';
+                }
+                if (btn9.Text == btn8.Text)
+                {
+                    if (btn9.Text == btn7.Text)
+                    {
+                        MessageBox.Show("You Win " + btn9.Text);
+                    }
+                }
+
+                if (btn9.Text == btn5.Text)
+                {
+                    if (btn9.Text == btn1.Text)
+                    {
+                        MessageBox.Show("You Win " + btn9.Text);
+                    }
+                }
+
+                if (btn9.Text == btn6.Text)
+                {
+                    if (btn9.Text == btn3.Text)
+                    {
+                        MessageBox.Show("You Win " + btn9.Text);
+                    }
                 }
             }
         }
