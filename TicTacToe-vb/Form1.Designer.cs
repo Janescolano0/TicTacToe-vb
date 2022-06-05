@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
@@ -37,11 +38,13 @@
             this.btn9 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(26, 28);
+            this.btn1.Location = new System.Drawing.Point(26, 53);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(79, 77);
             this.btn1.TabIndex = 0;
@@ -50,7 +53,7 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(26, 135);
+            this.btn2.Location = new System.Drawing.Point(26, 172);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(79, 77);
             this.btn2.TabIndex = 1;
@@ -59,7 +62,7 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(26, 250);
+            this.btn3.Location = new System.Drawing.Point(26, 303);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(79, 77);
             this.btn3.TabIndex = 2;
@@ -68,7 +71,7 @@
             // 
             // btn6
             // 
-            this.btn6.Location = new System.Drawing.Point(163, 240);
+            this.btn6.Location = new System.Drawing.Point(163, 303);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(79, 77);
             this.btn6.TabIndex = 5;
@@ -77,7 +80,7 @@
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(163, 134);
+            this.btn5.Location = new System.Drawing.Point(163, 172);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(79, 77);
             this.btn5.TabIndex = 4;
@@ -86,7 +89,7 @@
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(163, 27);
+            this.btn4.Location = new System.Drawing.Point(163, 53);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(79, 77);
             this.btn4.TabIndex = 3;
@@ -95,7 +98,7 @@
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(281, 250);
+            this.btn9.Location = new System.Drawing.Point(281, 303);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(79, 77);
             this.btn9.TabIndex = 8;
@@ -104,7 +107,7 @@
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(281, 135);
+            this.btn8.Location = new System.Drawing.Point(281, 183);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(79, 77);
             this.btn8.TabIndex = 7;
@@ -113,18 +116,29 @@
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(281, 28);
+            this.btn7.Location = new System.Drawing.Point(281, 69);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(79, 77);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
             this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(1, 1);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(42, 34);
+            this.axWindowsMediaPlayer1.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 354);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(389, 403);
+            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
@@ -137,6 +151,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -152,6 +167,7 @@
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn7;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }
 }
 

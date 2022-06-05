@@ -9,3 +9,8 @@ C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.cspr
 C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.csproj.CoreCompileInputs.cache
 C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.exe
 C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.pdb
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\Interop.WMPLib.dll
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\obj\Debug\TicTacToe-vb.csproj.ResolveComReference.cache
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\bin\Debug\Interop.WMPLib.dll
+C:\Users\Acer\source\repos\TicTacToe-vb\TicTacToe-vb\bin\Debug\AxInterop.WMPLib.dll

@@ -7,22 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace TicTacToe_vb
 {
     public partial class Form1 : Form
     {
-        String XorO = "X";
-        int counter = 0;
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
+
         char turn = 'X';
         public Form1()
         {
             InitializeComponent();
+            player.URL = "(No Copyright) 5 Minute Gaming Tracks _ UCan2 Non-Copyright Music.mp3";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            player.controls.play();
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -43,7 +45,6 @@ namespace TicTacToe_vb
                     if (btn1.Text == btn3.Text)
                     {
                         MessageBox.Show("You Win " + btn1.Text);
-                        counter = 0;
                     }
                 }
 
@@ -59,7 +60,6 @@ namespace TicTacToe_vb
                     if (btn1.Text == btn9.Text)
                     {
                         MessageBox.Show("You Win " + btn1.Text);
-                        counter = 0;
                     }
                 }
             }
@@ -83,7 +83,6 @@ namespace TicTacToe_vb
                     if (btn2.Text == btn8.Text)
                     {
                         MessageBox.Show("You Win " + btn2.Text);
-                        counter = 0;
                     }
                 }
             }
@@ -108,7 +107,6 @@ namespace TicTacToe_vb
                     if (btn3.Text == btn9.Text)
                     {
                         MessageBox.Show("You Win " + btn3.Text);
-                        counter = 0;
                     }
                 }
 
@@ -117,7 +115,6 @@ namespace TicTacToe_vb
                     if (btn3.Text == btn7.Text)
                     {
                         MessageBox.Show("You Win " + btn3.Text);
-                        counter = 0;
                     }
                 }
                 if (btn3.Text == btn2.Text)
@@ -125,7 +122,6 @@ namespace TicTacToe_vb
                     if (btn3.Text == btn1.Text)
                     {
                         MessageBox.Show("You Win " + btn3.Text);
-                        counter = 0;
                     }
                 }
             }
@@ -150,7 +146,6 @@ namespace TicTacToe_vb
                     if (btn4.Text == btn6.Text)
                     {
                         MessageBox.Show("You Win " + btn4.Text);
-                        counter = 0;
                     }
                 }
             }
@@ -174,7 +169,6 @@ namespace TicTacToe_vb
                     if (btn5.Text == btn8.Text)
                     {
                         MessageBox.Show("You Win " + btn5.Text);
-
                     }
                 }
 
